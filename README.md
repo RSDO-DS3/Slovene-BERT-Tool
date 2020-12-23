@@ -1,7 +1,7 @@
 # Slovene BERT/RoBERTa training tool
 V tem repozitoriju se nahaja rezultat aktivnosti A3.3 - R3.3.2 Orodje za izračun slovenskih kontekstnih vložitev, ki je nastalo v okviru projekta [Razvoj slovenščine v digitalnem okolju](https://www.cjvt.si/rsdo/).
 
---
+---
 
 Scripts for data-preparation and training of Slovenian BERT/RoBERTa model.
 
