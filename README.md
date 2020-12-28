@@ -3,7 +3,7 @@ V tem repozitoriju se nahaja rezultat aktivnosti A3.3 - R3.3.2 Orodje za izraču
 
 ---
 
-Scripts for data-preparation and training of Slovenian BERT/RoBERTa model.
+Scripts for data-preparation and training of Slovenian BERT/RoBERTa model (SloBERTa). The trained SloBERTa model is available at http://hdl.handle.net/11356/1387
 
 ### Requirements
 * `fairseq` (https://github.com/pytorch/fairseq)
@@ -22,6 +22,8 @@ First train a sentencepiece model, which is used as subword tokenizer. Run `trai
 
 ## Train the model
 The scripts in `training` show how the training was done on DGXA100 machine with Slurm installed. First, we create an nvidia enroot container, by running `create_container.sh`. The training data (`.bin` and `.idx` files) are assumed to be in the folder `sl/sl_roberta_preprocessed`. Create a `sl/checkpoints` folder as well, to save training checkpoints to. Run the training with `sl_roberta_train_dgxa100.sh`.
+
+---
 
 > Operacijo Razvoj slovenščine v digitalnem okolju sofinancirata Republika Slovenija in Evropska unija iz Evropskega sklada za regionalni razvoj. Operacija se izvaja v okviru Operativnega programa za izvajanje evropske kohezijske politike v obdobju 2014-2020.
 
